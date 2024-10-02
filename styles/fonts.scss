@@ -2,30 +2,30 @@
 
 /*** Grunnstærð er 16px ***/
 html {
-    font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 }
 
 /*** Leturgerðir sem við sækjum úr fonts/ möppu ***/
 @font-face {
-    font-family: 'Matemasie-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('./fonts/Matemasie-Regular.ttf') format('woff2');
+  font-family: Matemasie-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fonts/Matemasie-Regular.ttf') format('woff2');
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('woff2');
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('woff2');
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-weight: 700;
-    src: url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('woff2');
+  font-family: 'Open Sans';
+  font-weight: 700;
+  src: url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('woff2');
 }
 
 /*** Allt meginmál notar open sans ***/
@@ -33,7 +33,7 @@ html,
 input,
 select,
 button {
-    font-family: var(--font-family-base);
+  font-family: var(--font-family-base);
 }
 
 /*** Allar fyrirsagnir nota Matemasie regular ***/
@@ -41,20 +41,20 @@ h1,
 h2,
 h3,
 legend {
-    font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading);
 }
 
 /** Lætur myndir aldrei taka meira pláss en foreldri skilgreinir **/
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /** Litur á hlekkjum erfist frá foreldri **/
 a {
-    color: inherit;
+  color: inherit;
 }
 
 /** „Til baka á forsíðu“ hlekkur **/
 .back {
-    margin-top: var(--spacing);
+  margin-top: var(--spacing);
 }
